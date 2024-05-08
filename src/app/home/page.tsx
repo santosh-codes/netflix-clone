@@ -36,13 +36,12 @@ const Page = () => {
               <input
                 type="text"
                 id="fname"
-                placeholder="Email address"
-                className="bg-black border-2 text-white border-[#615E5F] w-96 h-14 rounded-md font-bold placeholder-white px-2"
+                placeholder="Email or mobile number"
+                className="bg-black border-2 opacity-[0.5] text-[#BCBCBC] border-[#615E5F] w-[342px] h-[55px] rounded-md placeholder-white px-2 "
               ></input>
             </div>
             <div>
-              <button className="rounded-md bg-[#E50914] px-8 py-3 font-medium text-white text-xl ">
-                {" "}
+              <button className="rounded-md bg-[#E50914] px-8 py-3 font-medium text-white text-2xl ">
                 Get Started
               </button>
             </div>
@@ -60,7 +59,7 @@ const Page = () => {
           </p>
         </div>
         <div className="">
-          <div className="absolute top-[1200px]">
+          <div className="absolute top-[752px]">
             <img
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
               alt="tv image"
